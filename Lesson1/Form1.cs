@@ -63,6 +63,7 @@ namespace Lesson1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.BackgroundImage = Properties.Resources.baku;
             //Label myNewLbl = new Label();
             //myNewLbl.Text = "New Label";
             //myNewLbl.Location = new Point(0, 250);
@@ -92,6 +93,11 @@ namespace Lesson1
                 this.Controls.Add(button);
 
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
